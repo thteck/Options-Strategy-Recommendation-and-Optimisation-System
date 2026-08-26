@@ -36,8 +36,8 @@ application is its delivery layer.
 Use Python 3.11 or later. From the project root:
 
 ```bash
-pip install -r application/requirements.txt
-streamlit run application/app.py
+pip install -r application\requirements.txt
+python -m streamlit run application\app.py
 ```
 
 Then enter a ticker, choose **Bullish** or **Bearish**, and select
