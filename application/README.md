@@ -44,21 +44,6 @@ Then enter a ticker, choose **Bullish** or **Bearish**, and select
 **Generate recommendation**. A typical run can take several minutes because
 it fetches live data and evaluates candidate strategies.
 
-## Streamlit Community Cloud
-
-1. Put the `application/` and `pipeline_notebooks/` folders in a GitHub
-   repository. The `Archive/` folder is not required by the deployed app.
-2. Create a Community Cloud app and set the entrypoint to
-   `application/app.py`.
-3. Keep the dependency file at `application/requirements.txt`; Community
-   Cloud recognises a requirements file beside the chosen entrypoint.
-4. Deploy. The app uses paths derived from its own source file, so it does not
-   depend on the current working directory.
-
-Community Cloud local files are not durable. If you later need saved
-recommendations, job recovery, or a shared history, add an external database
-or object store and move long-running jobs to a worker service.
-
 ## Important limitation
 
 This is decision support only. It does not execute trades, provide trading
