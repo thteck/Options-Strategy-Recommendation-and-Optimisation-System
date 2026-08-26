@@ -21,8 +21,7 @@ application is its delivery layer.
 
 ## Runtime behaviour
 
-- The notebooks are sourced from the root-level `pipeline_notebooks/` folder,
-  not from `Archive/`.
+- The notebooks are sourced from the root-level `pipeline_notebooks/` folder.
 - Each request has its own temporary working directory, so it does not load
   old batch results or collide with another request.
 - Fresh market and options data are fetched for every generated recommendation.
