@@ -36,6 +36,8 @@ application is its delivery layer.
 Use Python 3.11 or later. From the project root:
 
 ```bash
+git clone https://github.com/thteck/Options-Strategy-Recommendation-and-Optimisation-System.git
+cd Options-Strategy-Recommendation-and-Optimisation-System
 pip install -r application\requirements.txt
 python -m streamlit run application\app.py
 ```
