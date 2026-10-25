@@ -1,5 +1,9 @@
 # Options Strategy Recommendation and Optimisation System
 
+### Project Overview
+
+![Options Strategy Recommendation and Optimisation System](Miscellaneous/Final%20Report%20cover%20picture.png)
+
 ## SECTION 1 : PROJECT TITLE
 
 **Options Strategy Recommendation and Optimisation System**
