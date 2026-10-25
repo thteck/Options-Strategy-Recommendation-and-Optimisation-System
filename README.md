@@ -68,8 +68,8 @@ Complete and verify the following table before submission. Add one row for each 
 
 | Video | Coverage | Link |
 | --- | --- | --- |
-| Promotion and use-case demonstration — 5 minutes | Business problem, value proposition, user demonstration and proposed pricing model. | **[Add video link]** |
-| System design and technical explanation — 5 minutes | Architecture, data preparation, reasoning, payoff simulation, genetic algorithm and evaluation. | **[Add video link]** |
+| Promotion and use-case demonstration — 5 minutes | Business problem, value proposition, user demonstration and proposed pricing model. | [Watch business video](https://youtu.be/qE9FIpF5Htc) |
+| System design and technical explanation — 5 minutes | Architecture, data preparation, reasoning, payoff simulation, genetic algorithm and evaluation. | [Watch technical video](https://youtu.be/eqTqprOWrKI) |
 
 Suggested demonstration: enter a ticker, select an outlook, generate a recommendation, inspect the option legs and explanation, and review payoff and evaluation evidence. Show the historical backtest separately from the live recommendation workflow.
 
@@ -265,3 +265,4 @@ IRS-PM-<StartDate>-<BatchCode>-GRP-<TeamName>-OptionsStrategyRecommendationAndOp
 ---
 
 Developed for the **Intelligent Reasoning Systems Practice Module, NUS-ISS**.
+
