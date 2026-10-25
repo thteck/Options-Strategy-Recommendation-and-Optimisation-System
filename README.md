@@ -59,7 +59,7 @@ Complete and verify the following table before submission. Add one row for each 
 
 | Official Full Name | Student ID / Permitted Masked ID | Work Items (Who Did What) | Email (Optional) |
 | --- | --- | --- | --- |
-| Tey Hao Teck | A0362588M | **[End-to-end system development]** | — |
+| Tey Hao Teck | A0362588M | **[End-to-end system development]** | teyhaoteck@u.nus.edu |
 
 ---
 
