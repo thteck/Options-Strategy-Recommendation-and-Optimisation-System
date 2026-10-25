@@ -11,9 +11,8 @@ NUS-ISS · Graduate Certificate in Intelligent Reasoning Systems · Practice Mod
 | Group name / number | Group 3 - Options Strategy Recommendation and Optimization System |
 | Full name | Tey Hao Teck |
 | Student ID | A0362588M |
-| Batch code | **[To be completed]** |
 | Project repository | [Options Strategy Recommendation and Optimisation System](https://github.com/thteck/Options-Strategy-Recommendation-and-Optimisation-System) |
-| Submission date | **[To be completed]** |
+| Submission date | 25 Oct 2026 |
 
 ---
 
