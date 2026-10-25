@@ -149,41 +149,6 @@ The outlook is supplied by the user; the live application does not independently
 
 The live application runs **Notebooks 01–07 only**. Each request uses an isolated temporary working directory and retrieves fresh data. Requests are serialised within one Streamlit process. Temporary run files are removed after the app loads the results, which remain scoped to the active session.
 
-### 5.5 Run historical backtesting
-
-Install JupyterLab in the same environment if needed, then launch it from the notebook directory:
-
-```bash
-python -m pip install jupyterlab
-cd pipeline_notebooks
-python -m jupyterlab
-```
-
-Open `08_Historical_Options_Backtesting.ipynb`, select the appropriate Python kernel, review Section 1 and run all cells. Install any additional packages required by its imports.
-
-The notebook expects the dataset at:
-
-```text
-../backtest_dataset/spy_2020_2022.csv
-```
-
-The experiment generates weekly shadow recommendations for both outlooks. A chronological policy selects at most one outlook per decision date using earlier trend observations and already-settled strategy outcomes. Simulated entry occurs in the next exchange session, with purchases at ask and sales at bid; expiry payoff uses the configured underlying-price source.
-
-Review the scorecard, trade log, skipped scenarios and validation checks. The notebook displays results inline and retains analysis DataFrames in memory; it does not export report files automatically.
-
-### 5.6 Troubleshooting
-
-| Issue | Suggested action |
-| --- | --- |
-| `streamlit` is not recognised | Activate the environment and use `python -m streamlit run application/app.py`. |
-| Missing packages | Install `application/requirements.txt` using the same Python interpreter that runs the app. |
-| Missing pipeline notebook | Preserve the repository structure and confirm that Notebooks 01–07 are present. |
-| Market-data timeout or unavailable quotes | Check connectivity and ticker availability, then retry later. Data-provider restrictions may affect retrieval. |
-| No eligible strategy | Try another supported ticker or review the market conditions and feasibility constraints. A recommendation is not guaranteed for every input. |
-| Backtest CSV not found | Check the notebook working directory and the relative dataset path above. |
-
----
-
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 **Group report:** **[Add the final report to `ProjectReport/` and insert its link here.]**
