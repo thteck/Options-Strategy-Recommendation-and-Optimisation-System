@@ -151,7 +151,7 @@ The live application runs **Notebooks 01–07 only**. Each request uses an isola
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-**Group report:** **[Add the final report to `ProjectReport/` and insert its link here.]**
+**Group report:** **[[Add the final report to `ProjectReport/` and insert its link here.](https://github.com/thteck/Options-Strategy-Recommendation-and-Optimisation-System/blob/main/ProjectReport/TeyHaoTeck_Final%20Report.pdf)]**
 
 ### Report structure
 
